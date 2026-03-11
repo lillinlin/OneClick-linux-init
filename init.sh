@@ -15,7 +15,7 @@ echo "开始更新软件源..."
 apt update -y
 
 echo "安装必要组件..."
-apt install -y unzip sudo cron curl wget
+apt install -y unzip sudo cron curl wget xxd
 
 echo "执行系统全面升级..."
 apt full-upgrade -y
